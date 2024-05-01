@@ -5,7 +5,7 @@
 import sbt._
 
 val twitterVersion = "20.10.0"
-val circeVersion   = "0.14.1"
+val circeVersion   = "0.14.7"
 
 lazy val root = (project in file("."))
   .settings(
