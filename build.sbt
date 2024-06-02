@@ -5,7 +5,7 @@
 import sbt._
 
 val finagleVersion = "20.10.0"
-val circeVersion   = "0.14.1"
+val circeVersion   = "0.15.1"
 
 ThisBuild / credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 ThisBuild / envVars ++= Map("CI_PROJECT_DIR" -> sys.env.getOrElse("CI_PROJECT_DIR", "."))
