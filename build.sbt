@@ -49,7 +49,7 @@ lazy val root = (project in file("."))
       "org.scalatra.scalate" %% "scalate-core"   % "1.9.7",
       "com.twitter"          %% "finagle-http"   % finagleVersion % Test,
       "io.circe"             %% "circe-yaml"     % circeVersion,
-      "com.github.pathikrit" %% "better-files"   % "3.9.1",
+      "com.github.pathikrit" %% "better-files"   % "3.9.2",
       "io.swagger.parser.v3"  % "swagger-parser" % "2.0.21"       % Test,
       "org.scalatest"        %% "scalatest"      % "3.2.1"        % Test,
     ),
